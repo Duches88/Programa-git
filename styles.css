@@ -1,0 +1,171 @@
+body {
+    width: 100%;
+    margin: 20px auto;
+    background-image: url(imagenes/feature.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    color: #f5f7f5;
+    font-family: Tahoma;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .registro{
+    text-decoration:underline;
+  }
+
+  .ingreso{
+    width: 80%;
+  }
+
+  .clickable {
+     cursor: pointer;
+     color: blue;
+     text-decoration: underline;
+   }
+
+     .separator {
+       width: 100%;
+       height: 1px;
+       background-color: #000;
+       /* Color de la línea (puedes cambiarlo) */
+       margin: 20px 0;
+       /* Espacio antes y después de la línea */
+     }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .box {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .box img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+     .background-image {
+       background-color: rgba(0, 0, 0, 0.5);
+       display: flex;
+       padding: 20px;
+       justify-content: center;
+     }
+
+     .fotoPPL {
+      max-width: 100%;
+      background-color: #ccc;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+     }
+
+     .fotoPLL{
+      width: 200px;
+      height: 200px;
+      background-color: aqua;
+      background-image: url(imagenes/foto\ perfil.jpg);
+      background-size: cover;
+     }
+
+     .btn-registro{
+      background-color: #1b1b32;
+      font-size: 20px;
+      color: #ffffff;
+      padding: 10px;
+      margin-left: 40%;
+     }
+
+         .header {
+           background-color: #333;
+           color: #fff;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 10px 20px;
+         }
+    
+         .option {
+           margin: 0 10px;
+           cursor: pointer;
+         }
+    
+         .menu-icon {
+           font-size: 24px;
+           cursor: pointer;
+         }

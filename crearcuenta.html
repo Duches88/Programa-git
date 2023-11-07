@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREAR CUENTA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ 
+    <div class="ingreso">
+    <h1>CREAR CUENTA</h1>
+    <p>Por favor llene este formulario con la información requerida</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">ingrese su nombre: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">ingrese su apellido: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">ingrese su Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Crea tu contraseña: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Correo institucional</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Usuario empresarial</label>
+        <label for="terms-and-conditions">
+            <input type="submit" value="crear usuario" />
+        </div>
+</body>
+</html>
