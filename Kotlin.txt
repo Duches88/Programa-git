@@ -1,4 +1,4 @@
-usuario
-duquesas88
-correo
+nombre de usuario
+Duches88
+correo electronico
 sabogaledisson622@gmail.com
